@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Playfair+Display&display=swap");
+
+$title-font: "Playfair Display", serif;
+$body-font: "DM Sans", sans-serif;
+
+body {
+  font-family: $body-font;
+  background-color: red;
+  font-weight: 400;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 101px;
+  line-height: 98.7%;
+}
+
+.large-text {
+  font-family: $title-font;
+  font-size: 40.0408px;
+  line-height: 120.7%;
+}

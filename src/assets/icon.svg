@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258 228" width="258" height="228">
+	<title>react-svg</title>
+	<defs>
+		<image width="186" height="228" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzEiIGhlaWdodD0iMzgiIHZpZXdCb3g9IjAgMCAzMSAzOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeT0iMTQuMTQyMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjMiIHJ4PSIxLjUiIHRyYW5zZm9ybT0icm90YXRlKC00NSAwIDE0LjE0MjIpIiBmaWxsPSIjMDUxNDczIi8+CjxyZWN0IHg9IjcuMDcwOCIgeT0iMjEuMjEzMiIgd2lkdGg9IjI4LjkzNTQiIGhlaWdodD0iMyIgcng9IjEuNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1IDcuMDcwOCAyMS4yMTMyKSIgZmlsbD0iIzA1MTQ3MyIvPgo8cmVjdCB4PSI3LjQxMDE2IiB5PSIzNS4wMTYyIiB3aWR0aD0iMjkuNTIwMyIgaGVpZ2h0PSIzIiByeD0iMS41IiB0cmFuc2Zvcm09InJvdGF0ZSgtNDUgNy40MTAxNiAzNS4wMTYyKSIgZmlsbD0iIzA1MTQ3MyIvPgo8L3N2Zz4K"/>
+	</defs>
+	<style>
+	</style>
+	<use id="menu" href="#img1" transform="matrix(.952,0,0,.952,40,11.032)"/>
+</svg>
