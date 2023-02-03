@@ -1,7 +1,27 @@
-.box {
-  background: red;
-}
+.text_blocks {
+  &__left-col {
+    padding-top: 15px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 34px;
+      height: 1px;
+      background-color: #000;
+    }
+  }
+  &__bottom-col {
+    padding: 100px 0;
+    h4 {
+      margin-bottom: 25px;
+    }
+    p {
+      margin-bottom: 0;
 
-.box-two {
-  background: green;
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  }
 }

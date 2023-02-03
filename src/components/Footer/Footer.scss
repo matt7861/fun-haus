@@ -1,1 +1,28 @@
+.footer {
+  background-color: #051473;
+  padding-top: 45px;
+  padding-bottom: 100px;
 
+  a,
+  h3 {
+    color: #faeb8c;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+      text-decoration: none;
+    }
+
+    li:not(:last-child) {
+      margin-bottom: 7px;
+    }
+  }
+
+  &__logo {
+    height: 70px;
+  }
+}

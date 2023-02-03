@@ -1,6 +1,5 @@
 @import "./typography.scss";
 @import "./media-query.scss";
-@import "./typography.scss";
 
 @import "./components/Header/Header";
 @import "./components/Hero/Hero";
@@ -9,24 +8,12 @@
 @import "./components/TextBlocks/TextBlocks";
 @import "./components/Footer/Footer";
 
-$blue: #051473;
-
 body {
   background-color: #faeb8c;
-  color: $blue;
+  color: #051473;
 }
 
 .padding-sides {
   padding-left: 170px;
   padding-right: 170px;
-}
-
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-.col-padding {
-  padding-left: 15px;
-  padding-right: 15px;
 }

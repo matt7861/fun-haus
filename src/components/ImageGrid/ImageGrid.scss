@@ -1,0 +1,60 @@
+.image_grid {
+  &__img {
+    aspect-ratio: 16 / 10;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:hover {
+      &::before {
+        opacity: 0.7;
+      }
+      h2 {
+        opacity: 1;
+      }
+    }
+
+    h2,
+    &::before {
+      position: absolute;
+      transition: ease-in-out 0.45s opacity;
+      opacity: 0;
+      width: 100%;
+    }
+
+    h2 {
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      color: #faeb8c;
+      z-index: 1;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background: #051473;
+      mix-blend-mode: multiply;
+    }
+  }
+  &__text {
+    margin: 30px 0 50px;
+    padding-top: 15px;
+    max-width: 300px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 34px;
+      height: 1px;
+      background-color: #000;
+    }
+  }
+}
