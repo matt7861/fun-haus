@@ -1,3 +1,6 @@
 .hero {
-  margin: 105px 0 165px;
+  margin: 65px 0 65px;
+  @include breakpoint(up, lg) {
+    margin: 105px 0 165px;
+  }
 }

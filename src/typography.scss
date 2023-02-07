@@ -5,7 +5,6 @@ $body-font: "DM Sans", sans-serif;
 
 body {
   font-family: $body-font;
-  background-color: red;
   font-weight: 400;
 }
 
@@ -13,44 +12,70 @@ h1 {
   font-family: $title-font;
   font-style: normal;
   font-weight: 400;
-  font-size: 101px;
+  font-size: 40px;
   line-height: 98.7%;
+
+  @include breakpoint(up, lg) {
+    font-size: 90px;
+  }
+
+  @include breakpoint(up, xxl) {
+    font-size: 101px;
+  }
 }
 
 h2 {
   font-family: $title-font;
   font-weight: 400;
-  font-size: 42px;
+  font-size: 32px;
   line-height: 120.7%;
+  @include breakpoint(up, lg) {
+    font-size: 42px;
+  }
 }
 
 h3 {
   font-family: $title-font;
   font-weight: 400;
-  font-size: 38.9887px;
+  font-size: 28px;
   line-height: 198.7%;
+  @include breakpoint(up, lg) {
+    font-size: 38px;
+  }
 }
 
 h4 {
   font-family: $body-font;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 153.7%;
+  @include breakpoint(up, lg) {
+    font-size: 28px;
+  }
 }
 
 .large-text {
   font-family: $title-font;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 120.7%;
+  @include breakpoint(up, lg) {
+    font-size: 40px;
+  }
 }
 
 p {
-  font-size: 24px;
+  font-size: 16px;
   line-height: 153.7%;
+  @include breakpoint(up, lg) {
+    font-size: 24px;
+  }
 }
 
 .footer__list a {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 165.7%;
+  @include breakpoint(up, lg) {
+    font-size: 20px;
+  }
 }

@@ -1,4 +1,8 @@
 import funhausLogoYellow from "../../assets/funhaus-logo-yellow.svg";
+import discord from "../../assets/discord.svg";
+import mail from "../../assets/mail.svg";
+import reddit from "../../assets/reddit.svg";
+import twitter from "../../assets/twitter.svg";
 
 const Footer = () => {
   return (
@@ -65,6 +69,21 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+        </div>
+
+        <div className="footer__socials">
+          <a href="#">
+            <img src={mail} alt="mail" />
+          </a>
+          <a href="#">
+            <img src={twitter} alt="twitter" />
+          </a>
+          <a href="#">
+            <img src={discord} alt="discord" />
+          </a>
+          <a href="#">
+            <img src={reddit} alt="reddit" />
+          </a>
         </div>
       </div>
     </footer>

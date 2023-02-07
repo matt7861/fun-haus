@@ -1,6 +1,5 @@
-@import "./typography.scss";
 @import "./media-query.scss";
-
+@import "./typography.scss";
 @import "./components/Header/Header";
 @import "./components/Hero/Hero";
 @import "./components/LargeImage/LargeImage";
@@ -14,6 +13,10 @@ body {
 }
 
 .padding-sides {
-  padding-left: 170px;
-  padding-right: 170px;
+  padding-left: 20px;
+  padding-right: 20px;
+  @include breakpoint(up, lg) {
+    padding-left: 170px;
+    padding-right: 170px;
+  }
 }
